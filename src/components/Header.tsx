@@ -31,7 +31,7 @@ export const Header: React.FC<HeaderProps> = ({
   const logoUrl = portalConfig?.logoUrl || "https://static.dggv.edu.vn/360/1720520041256_1672315054577_group-5371.png";
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.03)]">
+    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/80 shadow-[0_2px_8px_rgba(0,0,0,0.03)] shrink-0">
       <div className="max-w-md mx-auto px-3.5 py-2">
         <div className="flex items-center justify-between">
           {/* Logo & Slim Brand Title */}

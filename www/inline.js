@@ -1,3 +1,0 @@
-document.head.innerHTML += `<meta charset="UTF-8"/>`;
-document.head.innerHTML += `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>`;
-document.head.innerHTML += `<meta name="theme-color" content="#ff9600"/>`;

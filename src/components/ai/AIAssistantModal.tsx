@@ -161,17 +161,47 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
       setTimeout(() => setSaveNotice(null), 3000);
     }
   };
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
+  const isAutoScrollEnabledRef = useRef<boolean>(true);
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  // Cuộn đáy container tin nhắn chuyên dụng - không dùng scrollIntoView gây giật layout
+  const scrollToBottom = (behavior: 'auto' | 'smooth' = 'auto') => {
+    const el = messagesContainerRef.current;
+    if (!el) return;
+    if (!isAutoScrollEnabledRef.current && behavior === 'auto') return;
+
+    if (behavior === 'smooth') {
+      el.scrollTo({
+        top: el.scrollHeight,
+        behavior: 'smooth'
+      });
+    } else {
+      el.scrollTop = el.scrollHeight;
+    }
   };
 
+  const handleScroll = () => {
+    const el = messagesContainerRef.current;
+    if (!el) return;
+    const distanceToBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
+    // Nếu người dùng cuộn lên trên cách đáy hơn 80px, tạm ngưng auto-scroll để đọc
+    isAutoScrollEnabledRef.current = distanceToBottom < 80;
+  };
+
+  // Cuộn mượt khi mở modal hoặc có tin nhắn mới
   useEffect(() => {
     if (isOpen) {
-      scrollToBottom();
+      isAutoScrollEnabledRef.current = true;
+      scrollToBottom('smooth');
     }
-  }, [messages, isOpen, currentStreamingText, currentThinkingStep]);
+  }, [messages.length, isOpen]);
+
+  // Cuộn tức thời (auto) 0ms khi streaming text hoặc cập nhật thinking steps để không giật nảy
+  useEffect(() => {
+    if (isOpen && (isLoading || currentStreamingText || currentThinkingStep)) {
+      scrollToBottom('auto');
+    }
+  }, [currentStreamingText, currentThinkingStep, isLoading, isOpen]);
 
   // Lưu lịch sử chat vào localStorage
   useEffect(() => {
@@ -366,7 +396,11 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
         </div>
 
         {/* Danh sách tin nhắn */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-3.5 no-scrollbar">
+        <div 
+          ref={messagesContainerRef}
+          onScroll={handleScroll}
+          className="flex-1 min-h-0 overflow-y-auto p-4 space-y-3.5 no-scrollbar overscroll-contain"
+        >
           {messages.map((msg, idx) => {
             const isUser = msg.role === 'user';
             const data = msg.structuredData;
@@ -683,7 +717,6 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
             </div>
           )}
 
-          <div ref={messagesEndRef} />
         </div>
 
         {/* Gợi ý câu hỏi nhanh (Quick Chips) */}

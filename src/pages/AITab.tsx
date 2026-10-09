@@ -168,15 +168,57 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
       setTimeout(() => setSaveNotice(null), 3000);
     }
   };
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
+  const isAutoScrollEnabledRef = useRef<boolean>(true);
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  // Cuộn đáy container tin nhắn chuyên dụng - không dùng scrollIntoView gây giật layout cha
+  const scrollToBottom = (behavior: 'auto' | 'smooth' = 'auto') => {
+    const el = messagesContainerRef.current;
+    if (!el) return;
+    if (!isAutoScrollEnabledRef.current && behavior === 'auto') return;
+
+    if (behavior === 'smooth') {
+      el.scrollTo({
+        top: el.scrollHeight,
+        behavior: 'smooth'
+      });
+    } else {
+      el.scrollTop = el.scrollHeight;
+    }
   };
 
+  const handleScroll = () => {
+    const el = messagesContainerRef.current;
+    if (!el) return;
+    const distanceToBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
+    // Nếu người dùng cuộn ngược lên > 80px để xem lại nội dung cũ, tạm dừng auto scroll
+    isAutoScrollEnabledRef.current = distanceToBottom < 80;
+  };
+
+  // Cuộn xuống đáy khi mở tab lần đầu
   useEffect(() => {
-    scrollToBottom();
-  }, [messages, isLoading, currentStreamingText, currentThinkingStep]);
+    isAutoScrollEnabledRef.current = true;
+    const timer = setTimeout(() => {
+      scrollToBottom('auto');
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Cuộn mượt khi người dùng gửi tin nhắn hoặc thêm tin nhắn hoàn chỉnh (chờ DOM paint 60ms)
+  useEffect(() => {
+    isAutoScrollEnabledRef.current = true;
+    const timer = setTimeout(() => {
+      scrollToBottom('smooth');
+    }, 60);
+    return () => clearTimeout(timer);
+  }, [messages.length]);
+
+  // Cuộn tức thời (auto) 0ms khi streaming text hoặc cập nhật thinking steps để không bị giật nảy
+  useEffect(() => {
+    if (isLoading || currentStreamingText || currentThinkingStep) {
+      scrollToBottom('auto');
+    }
+  }, [currentStreamingText, currentThinkingStep, isLoading]);
 
   // Tự động lưu lịch sử tin nhắn vào localStorage mỗi khi có tin nhắn mới
   useEffect(() => {
@@ -320,7 +362,7 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
   };
 
   return (
-    <div className="flex flex-col h-screen max-w-md mx-auto bg-stone-50 pb-20 relative">
+    <div className="flex flex-col h-full w-full max-w-md mx-auto bg-stone-50 relative min-h-0 overflow-hidden">
       {/* Toast thông báo lưu lịch trình thành công */}
       {saveNotice && (
         <div className="fixed top-16 left-1/2 -translate-x-1/2 z-50 bg-stone-900/95 text-white px-4 py-2.5 rounded-full text-xs font-bold shadow-xl border border-amber-500/30 flex items-center gap-2 animate-bounce">
@@ -362,7 +404,11 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
       </header>
 
       {/* Danh Sách Tin Nhắn Cuộn */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-3.5 no-scrollbar">
+      <div 
+        ref={messagesContainerRef}
+        onScroll={handleScroll}
+        className="flex-1 min-h-0 overflow-y-auto p-4 space-y-3.5 no-scrollbar overscroll-contain"
+      >
         {messages.map((msg, idx) => {
           const isUser = msg.role === 'user';
           const data = msg.structuredData;
@@ -674,7 +720,6 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
           </div>
         )}
 
-        <div ref={messagesEndRef} />
       </div>
 
       {/* Gợi Ý Câu Hỏi Nhanh (Quick Chips) */}
@@ -692,7 +737,7 @@ const getTimeSlotForStop = (idx: number, isEn: boolean = false): { time: string;
       </div>
 
       {/* Thanh Nhập Tin Nhắn Ở Đáy */}
-      <div className="p-3 bg-white border-t border-stone-200/80 flex items-center space-x-2 shrink-0">
+      <div className="p-3 pb-[76px] bg-white border-t border-stone-200/80 flex items-center space-x-2 shrink-0 shadow-[0_-4px_16px_rgba(0,0,0,0.04)]">
         <input
           type="text"
           value={inputValue}

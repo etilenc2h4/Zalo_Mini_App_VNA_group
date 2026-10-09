@@ -53,6 +53,7 @@ Zalo_Mini_App_VNA_group/
 - [`SETUP.md`](./SETUP.md): Hướng dẫn cài đặt, chạy máy chủ dev và quy trình build & deploy lên Zalo.
 - [`ARCHITECTURE.md`](./ARCHITECTURE.md): Kiến trúc kỹ thuật phân tầng và giải pháp tích hợp ZMP SDK.
 - [`API_DOCUMENTATION.md`](./API_DOCUMENTATION.md): Đặc tả chi tiết các endpoint API máy chủ Đắk Song.
+- [`DANH_GIA_BAT_CAP_TINH_NANG_BOOKING.md`](./DANH_GIA_BAT_CAP_TINH_NANG_BOOKING.md): Báo cáo phân tích rủi ro & đánh giá tính khả thi khi tích hợp tính năng Booking.
 - [`AGENTS.md`](./AGENTS.md): Tiêu chuẩn kỹ thuật, quy tắc CSDL migration và quy ước phát triển cho AI & Dev.
 
 ---

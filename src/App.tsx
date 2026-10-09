@@ -475,9 +475,9 @@ export const App: React.FC = () => {
   }, [savedIds, supabaseFavorites, displayDestinations, displayTravelLocations, displayPosts]);
 
   return (
-    <div className="min-h-screen bg-stone-100 flex justify-center">
+    <div className="h-screen h-[100dvh] bg-stone-100 flex justify-center overflow-hidden">
       {/* Mobile container giới hạn bề ngang max-w-md chuẩn Zalo Mini App */}
-      <div className="w-full max-w-md bg-stone-50 min-h-screen shadow-2xl relative flex flex-col border-x border-stone-200">
+      <div className="w-full max-w-md bg-stone-50 h-screen h-[100dvh] shadow-2xl relative flex flex-col border-x border-stone-200 overflow-hidden">
         {/* Toast thông báo chuyển đổi ngôn ngữ */}
         {langToast && (
           <div className="fixed top-14 left-1/2 -translate-x-1/2 z-50 bg-stone-900/90 text-white text-xs font-bold px-3.5 py-1.5 rounded-full shadow-lg backdrop-blur-sm animate-fadeIn flex items-center space-x-1.5 border border-white/20">
@@ -496,7 +496,7 @@ export const App: React.FC = () => {
         />
 
         {/* Tab Content */}
-        <main className={`flex-1 ${activeTab === 'vr360' ? 'overflow-hidden flex flex-col' : 'overflow-y-auto'}`}>
+        <main className={`flex-1 min-h-0 ${activeTab === 'vr360' || activeTab === 'ai' ? 'overflow-hidden flex flex-col' : 'overflow-y-auto'}`}>
           {activeTab === 'home' && (
             <HomeTab
               destinations={displayDestinations}
