@@ -1,0 +1,883 @@
+{
+  "totalVRScenes": 65,
+  "scenes": [
+    {
+      "nodeId": "node110",
+      "customId": "tongquan",
+      "title": "Tổng quan về Đắk Song",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.254538,
+      "lng": 107.612092
+    },
+    {
+      "nodeId": "node111",
+      "customId": "tongquan_vr",
+      "title": "Tổng quan về Đắk Song VR",
+      "description": "",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.254538,
+      "lng": 107.612092
+    },
+    {
+      "nodeId": "node45",
+      "customId": "flycam_huyen_Dak_Song_01",
+      "title": "Toàn cảnh huyện Đắk Song",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/trung-tam-huyen-dak-song-VI.mp3",
+      "lat": 12.254538,
+      "lng": 107.612092
+    },
+    {
+      "nodeId": "node43",
+      "customId": "flycam_huyen_Dak_Song_02",
+      "title": "Quảng trường",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/trung-tam-huyen-dak-song-VI.mp3",
+      "lat": 12.25412,
+      "lng": 107.616038
+    },
+    {
+      "nodeId": "node52",
+      "customId": "flycam_Nam_Nung_01",
+      "title": "Toàn cảnh bảo tồn thiên nhiên Nâm Nung",
+      "description": "Khu bảo tồn thiên nhiên Nâm Nung có tổng diện tích hơn 20.000 ha, là rừng nhiệt đới đặc trưng với nhiều tầng thực vật dày đặc. Nằm trong khu vực rừng nguyên sinh của khu bảo tồn, dãy núi Nâm Nung là nơi chia cắt khí hậu của tỉnh Đắk Nông thành hai khu vực rõ rệt, phía Nam ôn hòa mát mẻ, phía Bắc khô",
+      "audio": "https://daksong-daknong.vnasw.vn/media/dinh-nam-nung-VI.mp3",
+      "lat": 12.186521,
+      "lng": 107.737452
+    },
+    {
+      "nodeId": "node53",
+      "customId": "flycam_Nam_Nung_02",
+      "title": "Đỉnh Nâm Nung",
+      "description": "Khu bảo tồn thiên nhiên Nâm Nung có tổng diện tích hơn 20.000 ha, là rừng nhiệt đới đặc trưng với nhiều tầng thực vật dày đặc. Nằm trong khu vực rừng nguyên sinh của khu bảo tồn, dãy núi Nâm Nung là nơi chia cắt khí hậu của tỉnh Đắk Nông thành hai khu vực rõ rệt, phía Nam ôn hòa mát mẻ, phía Bắc khô",
+      "audio": "https://daksong-daknong.vnasw.vn/media/dinh-nam-nung-VI.mp3",
+      "lat": 12.187705,
+      "lng": 107.732822
+    },
+    {
+      "nodeId": "node63",
+      "customId": "Nam_Nung_01",
+      "title": "Đồi cắm trại dã ngoại",
+      "description": "Khu bảo tồn thiên nhiên Nâm Nung có tổng diện tích hơn 20.000 ha, là rừng nhiệt đới đặc trưng với nhiều tầng thực vật dày đặc. Nằm trong khu vực rừng nguyên sinh của khu bảo tồn, dãy núi Nâm Nung là nơi chia cắt khí hậu của tỉnh Đắk Nông thành hai khu vực rõ rệt, phía Nam ôn hòa mát mẻ, phía Bắc khô",
+      "audio": "https://daksong-daknong.vnasw.vn/media/dinh-nam-nung-VI.mp3",
+      "lat": 12.18571873,
+      "lng": 107.730968
+    },
+    {
+      "nodeId": "node64",
+      "customId": "Nam_Nung_02",
+      "title": "Đồi cắm trại dã ngoại",
+      "description": "Khu bảo tồn thiên nhiên Nâm Nung có tổng diện tích hơn 20.000 ha, là rừng nhiệt đới đặc trưng với nhiều tầng thực vật dày đặc. Nằm trong khu vực rừng nguyên sinh của khu bảo tồn, dãy núi Nâm Nung là nơi chia cắt khí hậu của tỉnh Đắk Nông thành hai khu vực rõ rệt, phía Nam ôn hòa mát mẻ, phía Bắc khô",
+      "audio": "https://daksong-daknong.vnasw.vn/media/dinh-nam-nung-VI.mp3",
+      "lat": 12.18546704,
+      "lng": 107.73136496
+    },
+    {
+      "nodeId": "node54",
+      "customId": "flycam_thac_Luu_Ly_01",
+      "title": "Toàn cảnh thác Lưu Ly",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.222374,
+      "lng": 107.680164
+    },
+    {
+      "nodeId": "node55",
+      "customId": "flycam_thac_Luu_Ly_02",
+      "title": "Thác Lưu Ly",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22332751,
+      "lng": 107.68034982
+    },
+    {
+      "nodeId": "node72",
+      "customId": "thac_Luu_Ly_01",
+      "title": "Bãi để xe",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22386281,
+      "lng": 107.6806283
+    },
+    {
+      "nodeId": "node69",
+      "customId": "thac_Luu_Ly_02",
+      "title": "Lối vào thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.2236531,
+      "lng": 107.68071413
+    },
+    {
+      "nodeId": "node67",
+      "customId": "thac_Luu_Ly_03",
+      "title": "Lối dẫn xuống thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22333853,
+      "lng": 107.68085897
+    },
+    {
+      "nodeId": "node74",
+      "customId": "thac_Luu_Ly_04",
+      "title": "Lối dẫn xuống thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22337786,
+      "lng": 107.68074094
+    },
+    {
+      "nodeId": "node71",
+      "customId": "thac_Luu_Ly_05",
+      "title": "Lối dẫn xuống thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22339096,
+      "lng": 107.68064976
+    },
+    {
+      "nodeId": "node75",
+      "customId": "thac_Luu_Ly_06",
+      "title": "Khu vực chân thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22344863,
+      "lng": 107.68048078
+    },
+    {
+      "nodeId": "node70",
+      "customId": "thac_Luu_Ly_07",
+      "title": "Khu vực chân thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22348534,
+      "lng": 107.68043518
+    },
+    {
+      "nodeId": "node68",
+      "customId": "thac_Luu_Ly_08",
+      "title": "Chân thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.22352465,
+      "lng": 107.68038154
+    },
+    {
+      "nodeId": "node73",
+      "customId": "thac_Luu_Ly_09",
+      "title": "Điểm cắm trại ở thác",
+      "description": "Điểm du lịch sinh thái thác Lưu Ly thuộc xã Nâm N'giang, huyện Đắk Song, cách Quốc lộ 14 khoảng 10km. Đây là một thắng cảnh thiên nhiên đẹp, là sự kết hợp hài hòa giữa thác nước và thiên nhiên hoang sơ, có nhiều tiềm năng để phát triển du lịch nghỉ dưỡng. Ủy ban nhân dân tỉnh đã ban hành văn bản chỉ",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thac-luu-ly-VI.mp3",
+      "lat": 12.2233831,
+      "lng": 107.68042177
+    },
+    {
+      "nodeId": "node58",
+      "customId": "flycam_Truc_Lam_01",
+      "title": "Toàn cảnh thiền viện trúc lâm Đạo Nguyên",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.204717,
+      "lng": 107.70319
+    },
+    {
+      "nodeId": "node59",
+      "customId": "flycam_Truc_Lam_02",
+      "title": "Toàn cảnh khu chánh điện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.206327,
+      "lng": 107.704266
+    },
+    {
+      "nodeId": "node57",
+      "customId": "flycam_Truc_Lam_03",
+      "title": "Toàn cảnh khuôn viên sau chùa",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.207282,
+      "lng": 107.70513
+    },
+    {
+      "nodeId": "node56",
+      "customId": "flycam_Truc_Lam_04",
+      "title": "Toàn cảnh tượng phật Thích ca",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.207108,
+      "lng": 107.70592
+    },
+    {
+      "nodeId": "node79",
+      "customId": "Truc_Lam_01",
+      "title": "Cổng tam quan",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20537083,
+      "lng": 107.70365238
+    },
+    {
+      "nodeId": "node81",
+      "customId": "Truc_Lam_02",
+      "title": "Lối dẫn vào thiền viện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20573785,
+      "lng": 107.70388305
+    },
+    {
+      "nodeId": "node83",
+      "customId": "Truc_Lam_03",
+      "title": "Nhà khách",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20599739,
+      "lng": 107.70407349
+    },
+    {
+      "nodeId": "node85",
+      "customId": "Truc_Lam_04",
+      "title": "Trước gian thờ Quán thế âm bồ tát",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20626741,
+      "lng": 107.70424783
+    },
+    {
+      "nodeId": "node87",
+      "customId": "Truc_Lam_05",
+      "title": "Gian thờ Quán thế âm bồ tát",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20636965,
+      "lng": 107.70411372
+    },
+    {
+      "nodeId": "node89",
+      "customId": "Truc_Lam_06",
+      "title": "Khuôn viên trước chánh điện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20651646,
+      "lng": 107.70444363
+    },
+    {
+      "nodeId": "node91",
+      "customId": "Truc_Lam_07",
+      "title": "Khuôn viên chánh điện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20671832,
+      "lng": 107.70457506
+    },
+    {
+      "nodeId": "node97",
+      "customId": "Truc_Lam_08",
+      "title": "Trước tháp trống",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20677337,
+      "lng": 107.70448655
+    },
+    {
+      "nodeId": "node99",
+      "customId": "Truc_Lam_09",
+      "title": "Tháp trống",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20680484,
+      "lng": 107.70443559
+    },
+    {
+      "nodeId": "node98",
+      "customId": "Truc_Lam_10",
+      "title": "Bia đá kinh niết bàn",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20669997,
+      "lng": 107.70444095
+    },
+    {
+      "nodeId": "node93",
+      "customId": "Truc_Lam_11",
+      "title": "Trước tháp chuông",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20667376,
+      "lng": 107.7046448
+    },
+    {
+      "nodeId": "node96",
+      "customId": "Truc_Lam_12",
+      "title": "Tháp chuông",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20664754,
+      "lng": 107.70468771
+    },
+    {
+      "nodeId": "node95",
+      "customId": "Truc_Lam_13",
+      "title": "Bia đá cư trần lạc đạo phú",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20657152,
+      "lng": 107.70463944
+    },
+    {
+      "nodeId": "node100",
+      "customId": "Truc_Lam_14",
+      "title": "Trước chánh điện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.2068127,
+      "lng": 107.70463407
+    },
+    {
+      "nodeId": "node76",
+      "customId": "Truc_Lam_15",
+      "title": "Hiên chánh điện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20689921,
+      "lng": 107.70467967
+    },
+    {
+      "nodeId": "node77",
+      "customId": "Truc_Lam_16",
+      "title": "Chánh điện",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20698573,
+      "lng": 107.70475746
+    },
+    {
+      "nodeId": "node84",
+      "customId": "Truc_Lam_17",
+      "title": "Lối dẫn vào pháp đường",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20639063,
+      "lng": 107.70470649
+    },
+    {
+      "nodeId": "node80",
+      "customId": "Truc_Lam_18",
+      "title": "Lối dẫn vào pháp đường",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20649549,
+      "lng": 107.70475209
+    },
+    {
+      "nodeId": "node78",
+      "customId": "Truc_Lam_19",
+      "title": "Trước pháp đường",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20665803,
+      "lng": 107.70485937
+    },
+    {
+      "nodeId": "node82",
+      "customId": "Truc_Lam_20",
+      "title": "Pháp đường",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20680483,
+      "lng": 107.70495057
+    },
+    {
+      "nodeId": "node86",
+      "customId": "Truc_Lam_21",
+      "title": "Lối dẫn lên tượng phật Thích ca",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20636179,
+      "lng": 107.70515442
+    },
+    {
+      "nodeId": "node88",
+      "customId": "Truc_Lam_22",
+      "title": "Vườn bia đá kinh phật",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20689921,
+      "lng": 107.7056399
+    },
+    {
+      "nodeId": "node90",
+      "customId": "Truc_Lam_23",
+      "title": "Trước tượng phật Thích ca",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20726622,
+      "lng": 107.70612538
+    },
+    {
+      "nodeId": "node92",
+      "customId": "Truc_Lam_24",
+      "title": "Bậc thang tước tượng phật Thích ca",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20735536,
+      "lng": 107.70622998
+    },
+    {
+      "nodeId": "node94",
+      "customId": "Truc_Lam_25",
+      "title": "Tượng phật Thích ca",
+      "description": "Đến với Thiền viện Trúc lâm Đạo Nguyên. Đây là một cơ sở phật giáo Trúc Lâm nằm trong khu bảo tồn thiên nhiên Nâm Nung, cách thành phố Gia Nghĩa, tỉnh Đắk Nông 40 km về hướng bắc. Thiền Viện Trúc Lâm Đạo Nguyên nằm ẩn mình trong rừng thông bát ngát, cách xa khu dân cư nên rất yên tĩnh, mang không kh",
+      "audio": "https://daksong-daknong.vnasw.vn/media/thien-vien-truc-lam-dao-nguyen-VI.mp3",
+      "lat": 12.20747071,
+      "lng": 107.70633996
+    },
+    {
+      "nodeId": "node60",
+      "customId": "flycam_MNong_01",
+      "title": "Toàn cảnh trung tâm học tập cộng đồng M'nông",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.207558,
+      "lng": 107.582232
+    },
+    {
+      "nodeId": "node101",
+      "customId": "MNong_01",
+      "title": "Sinh hoạt múa chiên đồng bào M'nông",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20791899,
+      "lng": 107.58255333
+    },
+    {
+      "nodeId": "node102",
+      "customId": "MNong_02",
+      "title": "Sinh hoạt múa chiên đồng bào M'nông",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20792949,
+      "lng": 107.58259624
+    },
+    {
+      "nodeId": "node104",
+      "customId": "MNong_03",
+      "title": "Sinh hoạt múa chiên đồng bào M'nông",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20788754,
+      "lng": 107.58259892
+    },
+    {
+      "nodeId": "node103",
+      "customId": "MNong_04",
+      "title": "Sinh hoạt múa chiên đồng bào M'nông",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20788754,
+      "lng": 107.58255601
+    },
+    {
+      "nodeId": "node61",
+      "customId": "flycam_MNong_02",
+      "title": "Toàn cảnh sinh hoạt đồng bào M'nông ngoài đồng",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.208509,
+      "lng": 107.590398
+    },
+    {
+      "nodeId": "node62",
+      "customId": "flycam_MNong_03",
+      "title": "Toàn cảnh sinh hoạt đồng bào M'nông ngoài đồng",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20896,
+      "lng": 107.590627
+    },
+    {
+      "nodeId": "node105",
+      "customId": "MNong_05",
+      "title": "Sinh hoạt đồng bào M'nông ngoài đồng",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20985894,
+      "lng": 107.59119272
+    },
+    {
+      "nodeId": "node107",
+      "customId": "MNong_06",
+      "title": "Sinh hoạt lửa trại, múa chiên đồng bào M'nông",
+      "description": "Điểm nổi bật trong du lịch văn hóa huyện Đắk Song chính là nét sinh hoạt văn hóa đặc sắc độc đáo riêng của đồng bào dân tộc M’nông\nLà vùng đất giao thoa, hội tụ những giá trị văn hóa dân gian truyền thống của đồng bào các dân tộc thiểu số ở Tây Nguyên. Theo thống kê, toàn tỉnh có khoảng 500.000 nhân",
+      "audio": "https://daksong-daknong.vnasw.vn/media/van-hoa-dan-toc-mnong-VI.mp3",
+      "lat": 12.20908296,
+      "lng": 107.59072065
+    },
+    {
+      "nodeId": "node51",
+      "customId": "flycam_dien_gio_01",
+      "title": "Toàn cảnh khu điện gió",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.338383,
+      "lng": 107.568392
+    },
+    {
+      "nodeId": "node109",
+      "customId": "flycam_dien_gio_02",
+      "title": "Toàn cảnh khu điện gió",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.340177,
+      "lng": 107.567665
+    },
+    {
+      "nodeId": "node46",
+      "customId": "flycam_QL14_01",
+      "title": "Toàn cảnh quốc lộ 14",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.214842,
+      "lng": 107.621266
+    },
+    {
+      "nodeId": "node108",
+      "customId": "flycam_QL14_02",
+      "title": "Toàn cảnh quốc lộ 14",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.215203,
+      "lng": 107.623493
+    },
+    {
+      "nodeId": "node48",
+      "customId": "flycam_QL14_03",
+      "title": "Hàng thông quốc lộ 14",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.215786,
+      "lng": 107.620929
+    },
+    {
+      "nodeId": "node49",
+      "customId": "flycam_QL14_04",
+      "title": "Hàng thông quốc lộ 14",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.213576,
+      "lng": 107.6217
+    },
+    {
+      "nodeId": "node65",
+      "customId": "QL14_01",
+      "title": "Hàng thông quốc lộ 14",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.21370733,
+      "lng": 107.6217109
+    },
+    {
+      "nodeId": "node66",
+      "customId": "QL14_02",
+      "title": "Hàng thông quốc lộ 14",
+      "description": "Đắk Song là một huyện nằm về phía Tây của Tỉnh Đắk Nông, được thành lập năm 2001, với tổng diện tích tự nhiên là 80.646,24 ha.\nHuyện Đắk Song được thiên nhiên ưu đãi, ban tặng nhiều cảnh quan thiên nhiên đẹp, và phong phú với khí hậu ôn hòa, quanh năm mát mẻ. Văn hóa truyền thống phong phú, đa dạng,",
+      "audio": "https://daksong-daknong.vnasw.vn/media/daksong k o loi.mp3",
+      "lat": 12.21298904,
+      "lng": 107.62177527
+    }
+  ],
+  "destinations": [
+    {
+      "id": "dien-gio-dak-song",
+      "name": "Cánh Đồng Điện Gió Đắk Song",
+      "category": "windpower",
+      "categoryLabel": "Điện Gió",
+      "rating": 4.9,
+      "reviewsCount": 384,
+      "address": "Xã Thuận Hạnh & Xã Nam Bình, Huyện Đắk Song, Đắk Nông",
+      "distance": "Cách trung tâm TT. Đức An ~6 km",
+      "ticketPrice": "Miễn phí",
+      "openHours": "Cả ngày (Đẹp nhất lúc hoàng hôn)",
+      "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1000&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "Hệ thống các trụ tua-bin gió khổng lồ vươn cao trên nương rẫy đại ngàn Đắk Song. Đã số hóa VR360 toàn cảnh trên hệ thống sa bàn daksong-daknong.vnasw.vn.",
+      "highlights": [
+        "Ngắm hoàng hôn đồi gió",
+        "Các trụ tua-bin gió khổng lồ",
+        "Số hóa 3D flycam từ trên cao"
+      ],
+      "tips": [
+        "Tuân thủ hành lang an toàn điện",
+        "Nên đến lúc sáng sớm hoặc 16h30"
+      ],
+      "lat": 12.338383,
+      "lng": 107.568392,
+      "featured": true,
+      "vrNodeId": "node51"
+    },
+    {
+      "id": "thac-luu-ly-nam-nung",
+      "name": "Khu Du Lịch Sinh Thái Thác Lưu Ly",
+      "category": "nature",
+      "categoryLabel": "Kỳ Quan Thác Nước",
+      "rating": 4.9,
+      "reviewsCount": 320,
+      "address": "Xã Nâm N'Jang, Huyện Đắk Song, Đắk Nông",
+      "distance": "Cách QL14 khoảng 12 km",
+      "ticketPrice": "Vé tham quan ban quản lý",
+      "openHours": "07:00 - 17:30",
+      "image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1000&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "Dòng thác tung bọt trắng xóa bắt nguồn từ dãy Nâm Nung đổ qua các tầng bậc đá nguyên sinh. Có đầy đủ 9 cảnh VR360 từ lối vào, đường dẫn đến chân thác.",
+      "highlights": [
+        "Dòng thác tung bọt mát lạnh",
+        "Đường dẫn lát đá xuyên rừng",
+        "Âm thanh thuyết minh audio guide chính thức"
+      ],
+      "tips": [
+        "Đi giày có độ bám tốt",
+        "Không xả rác trong khu bảo tồn"
+      ],
+      "lat": 12.223524,
+      "lng": 107.680381,
+      "featured": true,
+      "vrNodeId": "node54"
+    },
+    {
+      "id": "thien-vien-truc-lam-dao-nguyen",
+      "name": "Thiền Viện Trúc Lâm Đạo Nguyên",
+      "category": "culture",
+      "categoryLabel": "Văn Hóa & Tâm Linh",
+      "rating": 4.95,
+      "reviewsCount": 412,
+      "address": "Khu bảo tồn thiên nhiên Nâm Nung, Huyện Đắk Song, Đắk Nông",
+      "distance": "Cách thị trấn Đức An khoảng 14 km",
+      "ticketPrice": "Miễn phí chiêm bái",
+      "openHours": "05:30 - 19:30",
+      "image": "https://static.dggv.edu.vn/360/1720755672633_8.jpg",
+      "gallery": [
+        "https://static.dggv.edu.vn/360/1720755672633_8.jpg"
+      ],
+      "description": "Quần thể thiền phái Trúc Lâm thanh tịnh ẩn mình giữa rừng thông Nâm Nung. Số hóa 29 cảnh VR360 bao gồm Cổng tam quan, Chánh điện, Tháp chuông, Vườn bia đá và Đại tượng Phật Thích Ca ngự trên đỉnh đồi.",
+      "highlights": [
+        "Kiến trúc gỗ trang nghiêm",
+        "Đại tượng Phật Thích Ca trên đỉnh đồi",
+        "Thuyết minh audio guide chính thức"
+      ],
+      "tips": [
+        "Trang phục kín đáo khi vào lễ Phật",
+        "Giữ im lặng nơi tu tập"
+      ],
+      "lat": 12.206985,
+      "lng": 107.704757,
+      "featured": true,
+      "vrNodeId": "node58"
+    },
+    {
+      "id": "kbt-thien-nhien-nam-nung",
+      "name": "Khu Bảo Tồn Thiên Nhiên Nâm Nung",
+      "category": "nature",
+      "categoryLabel": "Rừng Sinh Thái",
+      "rating": 4.85,
+      "reviewsCount": 240,
+      "address": "Dãy Nâm Nung, Huyện Đắk Song, Đắk Nông",
+      "distance": "Cách TT. Đức An ~15 km",
+      "ticketPrice": "Quy định bảo tồn",
+      "openHours": "06:00 - 17:00",
+      "image": "https://static.dggv.edu.vn/360/1720757008144_26.jpg",
+      "gallery": [
+        "https://static.dggv.edu.vn/360/1720757008144_26.jpg"
+      ],
+      "description": "Đỉnh núi cao hơn 1.500m với diện tích hơn 20.000 ha rừng nhiệt đới đặc trưng, địa điểm cắm trại dã ngoại và khám phá hệ sinh thái tự nhiên nguyên sơ.",
+      "highlights": [
+        "Nóc nhà huyện Đắk Song",
+        "Biển mây sáng sớm",
+        "Hệ động thực vật phong phú"
+      ],
+      "tips": [
+        "Mang áo ấm vì ban đêm lạnh",
+        "Cần người bản địa hướng dẫn khi đi sâu"
+      ],
+      "lat": 12.2512,
+      "lng": 107.7121,
+      "featured": true,
+      "vrNodeId": "node53"
+    },
+    {
+      "id": "trung-tam-cong-dong-mnong",
+      "name": "Không Gian Văn Hóa Dân Tộc M'Nông",
+      "category": "culture",
+      "categoryLabel": "Bản Sắc Dân Tộc",
+      "rating": 4.9,
+      "reviewsCount": 275,
+      "address": "Xã Đắk N'Drung, Huyện Đắk Song, Đắk Nông",
+      "distance": "Cách TT. Đức An ~8 km",
+      "ticketPrice": "Giao lưu cộng đồng",
+      "openHours": "Hàng ngày",
+      "image": "https://static.dggv.edu.vn/360/1672307604677_z3997641506907_ff6e17b67121e6b6a218553db5c79124.jpg",
+      "gallery": [
+        "https://static.dggv.edu.vn/360/1672307604677_z3997641506907_ff6e17b67121e6b6a218553db5c79124.jpg"
+      ],
+      "description": "Không gian văn hóa truyền thống của đồng bào M'Nông bản địa với nghệ thuật cồng chiêng Tây Nguyên, dệt thổ cẩm và đêm lửa trại. Đã số hóa 8 cảnh VR360 sinh động.",
+      "highlights": [
+        "Không gian văn hóa Cồng Chiêng UNESCO",
+        "Sinh hoạt lửa trại ngoài đồng",
+        "Uống rượu cần và múa xoang"
+      ],
+      "tips": [
+        "Trải nghiệm giao lưu tôn trọng phong tục bà con"
+      ],
+      "lat": 12.207918,
+      "lng": 107.582553,
+      "featured": true,
+      "vrNodeId": "node60"
+    },
+    {
+      "id": "hang-thong-ql14",
+      "name": "Hàng Thông Cảnh Quan Quốc Lộ 14",
+      "category": "nature",
+      "categoryLabel": "Cảnh Quan Đồi Thông",
+      "rating": 4.8,
+      "reviewsCount": 195,
+      "address": "Đoạn qua Xã Nâm N'Jang, QL14, Huyện Đắk Song",
+      "distance": "Trục Quốc lộ 14 huyết mạch",
+      "ticketPrice": "Miễn phí tham quan",
+      "openHours": "Cả ngày (Đẹp nhất lúc sương sớm)",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "description": "Cung đường thông reo xanh mướt bảng lảng sương mù được ví như \"Đà Lạt thu nhỏ\" của Đắk Nông. Đã số hóa 6 cảnh VR360 dọc tuyến đường.",
+      "highlights": [
+        "Săn sương sớm tuyệt đẹp",
+        "Không khí se lạnh mát mẻ",
+        "Góc chụp ảnh lãng mạn"
+      ],
+      "tips": [
+        "Chú ý quan sát xe cộ khi chụp ảnh ven đường"
+      ],
+      "lat": 12.213707,
+      "lng": 107.62171,
+      "featured": true,
+      "vrNodeId": "node48"
+    }
+  ],
+  "articles": [
+    {
+      "id": "af786285-a5a0-4914-a2ee-d9dd0cbe4d25",
+      "name": "Bế mạc Ngày hội Văn hóa các dân tộc huyện Đắk Song",
+      "slug": "be-mac-ngay-hoi-van-hoa-cac-dan-toc-huyen-dak-songaf786285-a5a0-4914-a2ee-d9dd0cbe4d25",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "Sáng 31/3, tại Quảng trường trung tâm Đắk Song, UBND huyện Đắk Song tổ chức Lễ bế mạc Ngày hội Văn hóa các dân tộc lần thứ II, năm 2023.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720755519795_5.jpg",
+      "view": 14773,
+      "publishDate": "2023-04-04T08:04:32.125Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "8b7a451d-17b5-400e-be37-8bccf967f370",
+      "name": "Đắk Nông: Giữ gìn bản sắc văn hóa thông qua Ngày hội Văn hóa các dân tộc",
+      "slug": "dak-nong-giu-gin-ban-sac-van-hoa-thong-qua-ngay-hoi-van-hoa-cac-dan-toc8b7a451d-17b5-400e-be37-8bccf967f370",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "Ngày 31/3, tại Quảng trường Trung tâm Đắk Song (tỉnh Đắk Nông) đã tổ chức Lễ bế mạc Ngày hội Văn hóa các dân tộc lần thứ II năm 2023. Ngày hội đã tạo được sự đoàn kết và gắn bó của các đồng bào dân tộc trên địa bàn huyện Đắk Song.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720755581004_6.jpg",
+      "view": 14758,
+      "publishDate": "2023-04-04T08:00:30.560Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "5852e4a0-2b8b-42b2-bf58-a94a6a74ef0f",
+      "name": "Lá bép - đặc sản rau rừng Tây nguyên",
+      "slug": "la-bep-dac-san-rau-rung-tay-nguyen5852e4a0-2b8b-42b2-bf58-a94a6a74ef0f",
+      "categoryName": "Ẩm thực ",
+      "quote": "​TTO - Trong kháng chiến chống Mỹ, bộ đội ở Tây nguyên thường hái lá bép về cải thiện bữa ăn hằng ngày. Trong bài hát Nổi lửa lên em của nhạc sĩ Huy Du còn có câu “Lá bép rau rừng thêm thắm tình anh nuôi”.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720755622683_7.jpg",
+      "view": 14763,
+      "publishDate": "2023-03-07T14:14:25.674Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "a024b9f2-e428-49f8-970b-849411ef49ab",
+      "name": "Thiền Viện Trúc Lâm Đạo Nguyên",
+      "slug": "thien-vien-truc-lam-dao-nguyena024b9f2-e428-49f8-970b-849411ef49ab",
+      "categoryName": "Danh lam - Thắng cảnh ",
+      "quote": "Thiền viện Trúc Lâm Đạo Nguyên là địa điểm thiêng liêng nổi tiếng nhất tỉnh Đăk Nông. Ở đây không chỉ sở hữu lối kiến trúc độc đáo mà còn có khu bảo tồn thiên nhiên tuyệt đẹp đã thu hút nhiều khách du lịch ghé thăm hàng năm. Bên cạnh đó nó còn là địa điểm mang tính chất tâm linh của người dân địa phương",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720755672633_8.jpg",
+      "view": 14772,
+      "publishDate": "2023-03-06T09:50:56.669Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "fe348e1d-32cf-4542-93f1-2f81149a87a4",
+      "name": "Nhà Rông - sức sống của Tây Nguyên",
+      "slug": "nha-rong-suc-song-cua-tay-nguyenfe348e1d-32cf-4542-93f1-2f81149a87a4",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "Nhắc đến nhà Rông, nhiều người thường nghĩ ngay đến công trình kiến trúc mang đậm nét văn hóa dân tộc của vùng đất Tây Nguyên hùng vĩ. Vậy kiến trúc và kết cấu của kiểu thiết kế nhà Rông Tây Nguyên có gì đặc sắc?",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720755707665_9.jfif",
+      "view": 14783,
+      "publishDate": "2023-01-05T07:10:40.380Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "2fdfd39c-0f8f-4aef-9492-e3fae54b2086",
+      "name": "Du lịch huyện Đắk Song - xứ sở tuyệt vời ẩn mình giữa chốn cao nguyên đại ngàn ",
+      "slug": "du-lich-huyen-dak-song-xu-so-tuyet-voi-an-minh-giua-chon-cao-nguyen-dai-ngan2fdfd39c-0f8f-4aef-9492-e3fae54b2086",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "Còn gì tuyệt vời hơn khi dừng chân ở một chốn bình yên để vô tư thả mình vào khung cảnh tuyệt vời, hít hà tràn lồng ngực những luồng khí mát lạnh trong lành rồi đưa mắt say tình với khung cảnh núi rừng tuyệt sắc? Du lịch huyện Đắk Song tỉnh Đắk Nông chính là trải nghiệm có thể mang đến cho bạn những cảm xúc tuyệt vời ấy.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720755779153_11.jpg",
+      "view": 14753,
+      "publishDate": "2023-01-05T07:10:27.932Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "0e9b319e-c888-40c6-9c70-14f4f2d94579",
+      "name": "Khu bảo tồn thiên nhiên Nâm Nung: điểm cắm trại lý tưởng",
+      "slug": "khu-bao-ton-thien-nhien-nam-nung-diem-cam-trai-ly-tuong0e9b319e-c888-40c6-9c70-14f4f2d94579",
+      "categoryName": "Danh lam - Thắng cảnh ",
+      "quote": "(SGTTO) – Ẩn sâu trong khu bảo tồn thiên nhiên Nâm Nung, tỉnh Đắk Nông, là một hệ thống suối và thác dày đặc cùng đỉnh núi Nâm Nung cao hơn 1.500m. Du khách đừng bỏ qua cơ hội đến đây để cảm nhận không khí trong lành và vẻ hoang sơ của cảnh quan.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720757008144_26.jpg",
+      "view": 14798,
+      "publishDate": "2022-12-30T02:47:58.765Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "359d59b1-dd49-48a1-b918-0a0f89bbee59",
+      "name": "Nét văn hoá truyền thống của dân tộc M’Nông",
+      "slug": "net-van-hoa-truyen-thong-cua-dan-toc-mnong359d59b1-dd49-48a1-b918-0a0f89bbee59",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "(LVH) - Người M’Nông là một trong những tộc người xuất hiện sớm nhất ở vùng đất Tây Nguyên và bảo lưu được nhiều nét văn hoá đặc trưng của dân tộc. Đó là những lễ hội truyền thống và kho tàng văn hóa dân gian độc đáo như: kể chuyện sử thi, đánh cồng chiêng, dân ca, dân vũ...",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720765095388_90.jpg",
+      "view": 14787,
+      "publishDate": "2022-12-30T02:43:59.175Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "d0b8c302-c2a6-4798-ac36-c4132fac593b",
+      "name": "Lễ bỏ mả - tín ngưỡng độc đáo ở Tây Nguyên",
+      "slug": "le-bo-ma-tin-nguong-doc-dao-o-tay-nguyend0b8c302-c2a6-4798-ac36-c4132fac593b",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "Lễ bỏ mả (hay còn gọi là lễ Pơ Thi) là lễ hội mang sắc thái văn hóa của đồng bào các dân tộc Tây Nguyên; có truyền thống lâu đời mang màu sắc tâm linh, tín ngưỡng độc đáo. Đồng bào nơi đây tin rằng, khi con người chết đi sẽ không đi về thế giới bên kia mà quay lại dương thế nhập vào cơ thể trẻ em. Vậy nên người dân cần làm lễ bỏ mả để tiễn đưa linh hồn về với tổ tiên ông bà.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720756958616_25.jpg",
+      "view": 14746,
+      "publishDate": "2022-12-30T02:43:56.556Z",
+      "creator": "VHTT huyện Đắk Song"
+    },
+    {
+      "id": "3f7e0795-9096-4d0e-b955-d4257f4fcf61",
+      "name": "Lễ mừng lúa mới của người M’nông",
+      "slug": "le-mung-lua-moi-cua-nguoi-mnong3f7e0795-9096-4d0e-b955-d4257f4fcf61",
+      "categoryName": "Sự kiện - Lễ hội ",
+      "quote": "Lễ mừng lúa mới của người M’nông được tổ chức vào đầu vụ thu hoạch cuối tháng 7, đầu tháng 8 âm lịch. người M’nông thường chuẩn bị cho lễ ngay từ ngày đầu tra hạt rồi chờ lúa chín. Lễ được tổ chức ngay tại rẫy, mâm cơm được bày ra để cúng Giàng.",
+      "imageUrl": "https://static.dggv.edu.vn/360/1720764338432_30.jpg",
+      "view": 14745,
+      "publishDate": "2022-12-30T02:43:53.961Z",
+      "creator": "VHTT huyện Đắk Song"
+    }
+  ]
+}
