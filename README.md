@@ -14,11 +14,13 @@ Dự án Frontend Zalo Mini App chính thức dành cho **Cổng Văn Hóa & Du 
 - **Chuẩn Mobile-First cho Zalo**: Giao diện thiết kế độc lập, thanh mảnh, tối ưu thao tác một tay trên smartphone.
 - **Dữ liệu thật 100% từ Máy chủ Sản xuất**: Kết nối trực tiếp hệ thống API `core-360.vnaapi.com` và `core-tenant.vnaapi.com`. Mọi bài viết, địa điểm, banner và danh mục tạo mới trên CMS huyện đều tự động cập nhật ngay trên Mini App.
 - **Trải nghiệm Mobile nâng cao**:
-  - **GPS Gần tôi**: Tự động đo khoảng cách thực tế đến từng điểm đến, nhà hàng, lưu trú.
+  - **Trợ lý Du Lịch AI Gemini**: Tư vấn điểm đến, lập lịch trình tour theo khung giờ sáng/trưa/chiều/tối, hiển thị các bước tư duy Realtime qua Server-Sent Events (SSE).
+  - **Thuyết minh Đa phương tiện QR Audio Guide Tour**: Quét mã QR tại biển bảng di tích thực địa bằng Camera Zalo (`scanQRCode`), tự động phát giọng đọc thuyết minh và âm sắc cồng chiêng.
+  - **GPS Gần tôi**: Tự động đo khoảng cách thực tế đến từng điểm đến, nhà hàng, lưu trú theo công thức Haversine.
   - **Bản đồ số Native Leaflet**: Sử dụng nền bản đồ đường sá ArcGIS Esri chi tiết, sắc nét, hoàn toàn miễn phí không watermark.
   - **Chỉ đường một chạm**: Tích hợp ZMP Native API chuyển tiếp mượt mà sang ứng dụng Google Maps trên điện thoại.
-  - **Thực tế ảo VR 360°**: Nhúng sa bàn toàn cảnh 65+ danh lam thắng cảnh số hóa 3D.
-  - **Quét mã QR tại điểm đến**: Nhận diện tức thì biển bảng di tích thực địa.
+  - **Thực tế ảo VR 360°**: Nhúng sa bàn toàn cảnh 65+ danh lam thắng cảnh số hóa 3D (kèm Cloudflare Worker Proxy).
+  - **Đồng bộ đám mây Supabase**: Lưu lịch trình du lịch cá nhân hóa, điểm yêu thích và hồ sơ Zalo.
   - **Menu Cá nhân hiện đại**: Thiết kế dạng hàng phẳng (List Rows) tinh gọn, sang trọng, hỗ trợ lưu điểm yêu thích và danh bạ cứu hộ SOS 24/7.
 
 ---

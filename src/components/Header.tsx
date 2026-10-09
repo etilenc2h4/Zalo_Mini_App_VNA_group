@@ -1,5 +1,5 @@
 import React from 'react';
-import { Share2, Heart } from 'lucide-react';
+import { Share2, Heart, QrCode } from 'lucide-react';
 import { shareApp } from '../services/zalo';
 import { PortalConfiguration } from '../types';
 
@@ -9,6 +9,7 @@ interface HeaderProps {
   language: 'vi' | 'en';
   onToggleLanguage: () => void;
   onOpenSearch?: () => void;
+  onOpenQRScanner?: () => void;
   portalConfig?: PortalConfiguration | null;
 }
 
@@ -17,6 +18,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenSaved,
   language,
   onToggleLanguage,
+  onOpenQRScanner,
   portalConfig
 }) => {
   const handleShare = () => {
@@ -80,6 +82,17 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
               )}
             </button>
+
+            {/* QR Scanner button */}
+            {onOpenQRScanner && (
+              <button
+                onClick={onOpenQRScanner}
+                className="p-1.5 rounded-xl bg-orange-50 hover:bg-orange-100 active:scale-95 transition-all text-[#ff9600] border border-orange-200"
+                title={language === 'en' ? 'Scan QR Audio Guide' : 'Quét QR Thuyết Minh'}
+              >
+                <QrCode className="w-4 h-4 text-[#ff9600]" />
+              </button>
+            )}
 
             {/* Share button */}
             <button

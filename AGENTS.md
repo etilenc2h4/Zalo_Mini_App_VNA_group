@@ -79,3 +79,15 @@ src/services/supabase/
 - **Backend API Core**: `https://core-360.vnaapi.com` (Tenant: `DAKNONG`, Department: `DAKNONG-2-29`).
 - **Nền tảng Sa bàn 3D**: `https://daksong-daknong.vnasw.vn/` (Kèm Cloudflare Worker Proxy giải quyết CORS & Leaflet).
 
+---
+
+## 🎧 8. QUY TẮC QR AUDIO GUIDE & TRỢ LÝ AI STREAMING
+1. **QR Audio Guide Service**:
+   - Vị trí: `src/services/qrGuide.service.ts` & `src/components/qr/QRAudioGuideModal.tsx`.
+   - Chuẩn Deep Link ngoài đời thực: `https://zalo.me/s/3383174999178410045/?qrId={id}&autoAudio=true`.
+   - Hỗ trợ quét bằng Camera Zalo SDK (`scanQRCode`) lẫn chế độ Demo 1-Chạm cho các buổi báo cáo/thuyết trình.
+2. **AI Streaming & Thinking Steps**:
+   - Backend phát Server-Sent Events (SSE) theo thời gian thực mỗi khi Gemini gọi Tool.
+   - Frontend hiển thị sống động các bước tư duy (Analyzing -> Tool Call -> Synthesis) kèm icon xoay & tick xanh, sau đó nhận toàn vẹn JSON đã ép kiểu mạnh (Strict Schema).
+
+

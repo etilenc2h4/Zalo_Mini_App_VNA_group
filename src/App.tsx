@@ -3,6 +3,8 @@ import { Header } from './components/Header';
 import { BottomNavigation, TabKey } from './components/BottomNavigation';
 import { GlobalModals } from './components/GlobalModals';
 import { AIAssistantModal } from './components/ai/AIAssistantModal';
+import { QRAudioGuideModal } from './components/qr/QRAudioGuideModal';
+import { resolveQRCodeContent, QRGuideItem } from './services/qrGuide.service';
 import { HomeTab } from './pages/HomeTab';
 import { DiscoverTab } from './pages/DiscoverTab';
 import { VR360Tab } from './pages/VR360Tab';
@@ -50,6 +52,25 @@ export const App: React.FC = () => {
   const [activeBlogPost, setActiveBlogPost] = useState<LivePortalPost | null>(null);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   const [isAIChatOpen, setIsAIChatOpen] = useState(false);
+  const [isQRGuideOpen, setIsQRGuideOpen] = useState(false);
+  const [selectedQRItem, setSelectedQRItem] = useState<QRGuideItem | null>(null);
+
+  // Xử lý DeepLink từ mã QR quét bên ngoài Zalo (ví dụ: ?qrId=thac_luu_ly hoặc ?destId=thac_luu_ly)
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const targetId = params.get('qrId') || params.get('destId') || params.get('id');
+      if (targetId) {
+        const item = resolveQRCodeContent(targetId);
+        if (item) {
+          setSelectedQRItem(item);
+          setIsQRGuideOpen(true);
+        }
+      }
+    } catch (e) {
+      console.warn('Lỗi phân tích URL params:', e);
+    }
+  }, []);
 
   // Danh sách ID các điểm đã lưu
   const [savedIds, setSavedIds] = useState<string[]>(() => {
@@ -470,6 +491,7 @@ export const App: React.FC = () => {
           onOpenSaved={() => setIsSavedModalOpen(true)}
           language={language}
           onToggleLanguage={handleToggleLanguage}
+          onOpenQRScanner={() => setIsQRGuideOpen(true)}
           portalConfig={portalConfig}
         />
 
@@ -495,6 +517,7 @@ export const App: React.FC = () => {
               onOpenVRNode={handleOpenVRNode}
               onOpenBlog={(post) => setActiveBlogPost(post)}
               onOpenGallery={() => setIsGalleryOpen(true)}
+              onOpenQRScanner={() => setIsQRGuideOpen(true)}
               language={language}
             />
           )}
@@ -618,6 +641,18 @@ export const App: React.FC = () => {
           language={language}
           onNavigateTab={(tab) => setActiveTab(tab as TabKey)}
           onSelectDestination={handleSelectDestination}
+          onOpenVRNode={handleOpenVRNode}
+        />
+
+        {/* Modal Thuyết Minh Đa Phương Tiện QR Code Điểm Đến */}
+        <QRAudioGuideModal
+          isOpen={isQRGuideOpen}
+          onClose={() => {
+            setIsQRGuideOpen(false);
+            setSelectedQRItem(null);
+          }}
+          language={language}
+          initialItem={selectedQRItem}
           onOpenVRNode={handleOpenVRNode}
         />
 

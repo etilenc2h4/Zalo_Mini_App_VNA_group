@@ -4,7 +4,9 @@ import {
   ArrowRight,
   Globe2,
   Calendar,
-  Phone
+  Phone,
+  QrCode,
+  ChevronRight
 } from 'lucide-react';
 import {
   Destination,
@@ -47,6 +49,7 @@ interface HomeTabProps {
   onOpenVRNode: (nodeId: string) => void;
   onOpenBlog: (post: LivePortalPost) => void;
   onOpenGallery: () => void;
+  onOpenQRScanner?: () => void;
   language?: 'vi' | 'en';
 }
 
@@ -69,6 +72,7 @@ export const HomeTab: React.FC<HomeTabProps> = ({
   onOpenVRNode,
   onOpenBlog,
   onOpenGallery,
+  onOpenQRScanner,
   language = 'vi'
 }) => {
   const [selectedPostCategory, setSelectedPostCategory] = useState<string>('all');
@@ -177,6 +181,38 @@ export const HomeTab: React.FC<HomeTabProps> = ({
         language={language}
         onOpenVR360={() => onChangeTab('vr360')}
       />
+
+      {/* Banner Tiện ích Quét Mã QR Thuyết Minh Điểm Đến */}
+      {onOpenQRScanner && (
+        <div className="mx-3.5">
+          <div
+            onClick={onOpenQRScanner}
+            className="p-3 bg-gradient-to-r from-stone-900 via-stone-800 to-stone-900 text-white rounded-2xl border border-stone-700 shadow-md flex items-center justify-between cursor-pointer active:scale-98 transition-all group"
+          >
+            <div className="flex items-center space-x-2.5 min-w-0">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-500 to-[#ff9600] flex items-center justify-center text-white shrink-0 shadow-sm group-hover:rotate-6 transition-transform">
+                <QrCode className="w-5 h-5" />
+              </div>
+              <div className="min-w-0">
+                <h4 className="font-black text-xs text-white flex items-center space-x-1.5 leading-tight truncate">
+                  <span>{language === 'en' ? 'QR Audio Tour Guide' : 'Thuyết Minh Đa Phương Tiện'}</span>
+                  <span className="text-[9px] bg-emerald-500/30 text-emerald-300 px-1.5 py-0.2 rounded-full font-bold">
+                    NEW
+                  </span>
+                </h4>
+                <p className="text-[10px] text-stone-300 truncate mt-0.5 font-medium">
+                  {language === 'en' ? 'Scan on-site QR code to listen to audio tour' : 'Quét mã QR tại điểm đến để nghe thuyết minh tự động'}
+                </p>
+              </div>
+            </div>
+
+            <button className="shrink-0 px-2.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-amber-400 font-bold text-[11px] flex items-center border border-white/10">
+              <span>{language === 'en' ? 'Scan' : 'Quét'}</span>
+              <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 2. Thời Tiết & Khí Hậu Địa Phương Đắk Song (Dữ liệu thời gian thực từ trạm khí tượng WMO) */}
       <WeatherWidget language={language} userCoords={userCoords} />

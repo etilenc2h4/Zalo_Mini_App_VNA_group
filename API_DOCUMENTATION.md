@@ -185,3 +185,76 @@ Hầu hết các request cần kèm theo các header định danh đơn vị:
 - **Request Body**: Toàn bộ object của địa điểm du lịch.
 - **Response Format**: `204 No Content` / `{"status": 204, "success": true}`.
 
+---
+
+## 3. HỆ THỐNG API BACKEND AI & THUYẾT MINH QR CODE
+
+### 3.1. Trợ Lý Du Lịch AI Gemini - Đóng gói JSON (AI Chat Standard)
+- **Endpoint**: `POST {BACKEND_API_URL}/ai/chat`
+- **Headers**: `Content-Type: application/json`, `ngrok-skip-browser-warning: true`
+- **Request Body**:
+  ```json
+  {
+    "prompt": "Gợi ý cho tôi các điểm du lịch Đắk Song đẹp nhất",
+    "userId": "zalo_user_id",
+    "history": [
+      { "role": "user", "content": "Chào bạn" },
+      { "role": "model", "content": "Xin chào! Mình là Trợ Lý Du Lịch Đắk Song..." }
+    ]
+  }
+  ```
+- **Response Format**: Ép kiểu mạnh theo Strict JSON Schema:
+  ```json
+  {
+    "success": true,
+    "data": {
+      "message": "Dưới đây là một số gợi ý địa điểm du lịch phù hợp tại Đắk Song...",
+      "intent": "RECOMMENDATION",
+      "action_required": false,
+      "action": null,
+      "data": {
+        "locations": [ ... ],
+        "posts": [ ... ],
+        "source": "CORE_API"
+      },
+      "thinkingSteps": [
+        "💡 Phân tích câu hỏi và xác định ý định của bạn...",
+        "🔍 Tìm kiếm địa điểm du lịch theo từ khóa \"Đắk Song\"...",
+        "✨ Tổng hợp toàn bộ dữ liệu và hoàn thiện câu trả lời..."
+      ]
+    }
+  }
+  ```
+
+---
+
+### 3.2. Trợ Lý AI Gemini - Streaming SSE Realtime (AI Chat Stream)
+- **Endpoint**: `POST {BACKEND_API_URL}/ai/chat/stream`
+- **Headers**: `Content-Type: application/json`, `Accept: text/event-stream`, `ngrok-skip-browser-warning: true`
+- **Cơ chế hoạt động**: Sử dụng Server-Sent Events (SSE) phát các bước tư duy ngay khoảnh khắc Gemini gọi Tool:
+  - `data: {"type": "thinking", "step": "step", "detail": "🕶️ Tra cứu các điểm đến có VR 360°..."}`
+  - `data: {"type": "data", "payload": { "locations": [...], "action": {...} }}`
+  - `data: {"type": "chunk", "text": "Câu trả lời hoàn chỉnh..."}`
+  - `data: {"type": "done", "fullResponse": {...}}`
+
+---
+
+### 3.3. Cấu trúc Deep Link & Mã QR Thuyết Minh Điểm Đến Thực Địa
+- **Cấu trúc URL Deep Link**:
+  ```text
+  https://zalo.me/s/3383174999178410045/?qrId={MÃ_ĐIỂM_ĐẾN}&autoAudio=true
+  ```
+- **Danh mục mã điểm đến đã chuẩn hóa**:
+  | Mã QR Code | Tên Điểm Đến | Link VR Node | Thời Lượng Audio |
+  | :--- | :--- | :--- | :--- |
+  | `DS_LUULY` | Thác Lưu Ly Đắk Song | `node_thac_luu_ly` | 02:45 |
+  | `DS_DIENGIO` | Cánh Đồng Điện Gió Đắk Song | `windfarm_node_1` | 03:10 |
+  | `DS_THONG` | Rừng Thông Đắk Song | `node_rung_thong` | 02:15 |
+  | `DS_DAONGUYEN` | Thiền Viện Trúc Lâm Đạo Nguyên | `node_dao_nguyen` | 03:40 |
+  | `DS_TRUNGTAM` | Trung Tâm Hành Chính - Văn Hóa Huyện | `node_trung_tam` | 02:50 |
+- **Quy trình hoạt động**:
+  1. Du khách quét bằng Zalo Camera ngoài đời thực $\rightarrow$ Zalo tự động mở Mini App.
+  2. Mini App phân giải tham số `qrId` $\rightarrow$ Tự động bật Modal và phát thuyết minh Audio giọng đọc Đắk Song.
+  3. Du khách có thể bấm chuyển chế độ *Lời Bình (Voice)* $\leftrightarrow$ *Âm Sắc Cồng Chiêng (Music)* hoặc bấm nút *Mở Sa Bàn VR 360°* để khám phá không gian số.
+
+
